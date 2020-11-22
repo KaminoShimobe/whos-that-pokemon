@@ -2,7 +2,7 @@ const pokedex = document.getElementById('pokedex');
 
 const fetchPokemon = () => {
     const promises = [];
-    for (let i = 1; i <= 850; i++) {
+    for (let i = 1; i <= 800; i++) {
         const url = `https://pokeapi.co/api/v2/pokemon/${i}`;
         promises.push(fetch(url).then((res) => res.json()));
     }
@@ -14,6 +14,23 @@ const fetchPokemon = () => {
             id: result.id
         }));
         displayPokemon(pokemon);
+    });
+};
+
+const fetchDexEntry = () => {
+    const promises = [];
+    for (let i = 1; i <= 800; i++) {
+        const url = `https://pokeapi.co/api/v2/pokemon-species/${i}`;
+        promises.push(fetch(url).then((res) => res.json()));
+    }
+    Promise.all(promises).then((results) => {
+        console.log(results)
+        const pokemon = results.map((result) => ({
+        text: result.flavor_text
+        
+        }));
+        displayPokemon(pokemon);
+
     });
 };
 
@@ -32,5 +49,7 @@ const displayPokemon = (pokemon) => {
         .join('');
     pokedex.innerHTML = pokemonHTMLString;
 };
+
+
 
 fetchPokemon();
