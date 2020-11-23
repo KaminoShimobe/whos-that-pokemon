@@ -8,9 +8,13 @@
         <link rel="stylesheet" href="style.css" />
         
     </head>
-    <body>
+    <body><h1>Pokedex</h1>
+      <div class="topnav">
+        <button onclick="sortList()">Sort Alphabetically</button>
+  <input type="text" id="myInput" onkeyup="searchy()" placeholder="Search for names..">
+</div> 
         <div class="container">
-            <h1>Pokedex</h1>
+            
             <ul id="pokedex"></ul>
         </div>
         <script src="app.js"></script>
