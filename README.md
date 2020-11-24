@@ -2,6 +2,7 @@
 ## pokedex using pokemon api
 
 ![Image of Wireframe](https://i.imgur.com/pnY9PHjh.jpg)
+![Updated Wireframe](https://imgur.com/a/sDaV9Lj.jpg)
 ![Image of API](https://imgur.com/a/lSssVkS.jpg)
 
 ### Pseudo Code
