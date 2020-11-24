@@ -2,6 +2,7 @@
 ## pokedex using pokemon api
 
 ![Image of Wireframe](https://i.imgur.com/pnY9PHjh.jpg)
+![Image of API](https://imgur.com/a/lSssVkS.jpg)
 
 ### Pseudo Code
 Pokedex API is for pokemon fans and casual passerby to see information about different pocket monsters.
