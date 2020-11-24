@@ -2,12 +2,12 @@ const pokedex = document.getElementById('pokedex');
 
 const fetchPokemon = () => {
     const promises = [];
-    const promises2 = [];
-    for (let i = 1; i <= 100; i++) {
+  
+    for (let i = 1; i <= 151; i++) {
         const url = `https://pokeapi.co/api/v2/pokemon/${i}`;
-        const url2 = `https://pokeapi.co/api/v2/pokemon-species/${i}`;
+       
         promises.push(fetch(url).then((res) => res.json()));
-        promises2.push(fetch(url).then((res) => res.json()));
+        
     }
     Promise.all(promises).then((results) => {
       
@@ -24,19 +24,19 @@ const fetchPokemon = () => {
 }       
         
         displayPokemon(pokemon);
-      for (let i = 1; i <= 800; i++) {
+      for (let i = 1; i <= 151; i++) {
         fetchPokemonExtraData(i).then((data) => {
         let description = data.flavor_text_entries.find(el => el.language.name === "en").flavor_text;
        
         let pokemonCard = document.getElementById(`${i}`);
         let text = document.createTextNode(description);
        
-        pokemonCard.appendChild(text);
+        pokemonCard.appendChild(text); //puts pokemon card description
     });
-      }
+    }
     
       });
-};
+  };
 
 
 
@@ -108,6 +108,44 @@ function searchy() {
           /* if next item is alphabetically
           lower than current item, mark as a switch
           and break the loop: */
+          shouldSwitch = true;
+          break;
+        }
+      }
+      if (shouldSwitch) {
+        /* If a switch has been marked, make the switch
+        and mark the switch as done: */
+        b[i].parentNode.insertBefore(b[i + 1], b[i]);
+        switching = true;
+      }
+    }
+  }
+
+  function sortList2() {
+    let list, i, switching, b, g, shouldSwitch;
+    list = document.getElementById("pokedex");
+    switching = true;
+    /* Make a loop that will continue until
+    no switching has been done: */
+    while (switching) {
+      // start by saying: no switching is done:
+      switching = false;
+      b = list.getElementsByTagName("li");
+      
+      
+      // Loop through all list-items:
+      for (i = 0; i < (b.length - 1); i++) {
+        // start by saying there should be no switching:
+        shouldSwitch = false;
+        /* check if the next item should
+        switch place with the current item: */
+        g = b.id; 
+        
+        if (Number(b[i].id) > Number(b[i+1].id)) {
+          /* if next item is alphabetically
+          lower than current item, mark as a switch
+          and break the loop: */
+          console.log("success")
           shouldSwitch = true;
           break;
         }
