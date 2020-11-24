@@ -3,9 +3,9 @@
 
 ![Image of Wireframe](https://i.imgur.com/pnY9PHjh.jpg)
 
-![Updated Wireframe](https://i.imgur.com/a/sDaV9Lj.jpg)
+![Updated Wireframe](https://i.imgur.com/SLIwiZ5.png)
 
-![Image of API](https://i.imgur.com/a/lSssVkS.jpg)
+![Image of API](https://i.imgur.com/WgZu139.png)
 
 ### Pseudo Code
 Pokedex API is for pokemon fans and casual passerby to see information about different pocket monsters.
