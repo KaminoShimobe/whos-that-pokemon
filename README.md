@@ -43,15 +43,23 @@ JAVASCRIPT
 
 ### Icebox
 
-add enlarge with click function that provides more info (evolutionary chains, potential abilities, movesets, catch rates)
+add enlarge with click function that provides more info (evolutionary chains potential abilities, movesets, catch rates)
+
 hover command that plays the pokemon cry
+
 More sort/omit features ex: egg groups, type, legendary/non legendary, favorite
+
 Favorite up to 6 mons
+
 add general pokemon theme on inital scroll
+
 add color coated boxes around the corresponding types
 
 ### Sources
 Pokemon API
+
 KaminoShimobe
+
 Postman
+
 MDN web docs
