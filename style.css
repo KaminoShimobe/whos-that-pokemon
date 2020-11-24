@@ -1,19 +1,23 @@
 body {
-    background-color: orangered;
-    color: white;
+    background-color:#3b4cca;
+    color: gold;
     margin: 0;
     font-family: rubik;
 }
 
 .container {
-    padding: 40px;
+    padding: 30px 10;
     margin: 0 auto;
+
+
 }
 
 h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 54px;
+    font-size: 55px;
+    text-shadow: -5px 0 blue, 0 2px blue, 3px 2px blue, 4px 3px red;
+
 }
 
 #pokedex {
@@ -24,6 +28,7 @@ h1 {
 }
 
 .card {
+    
     list-style: none;
     padding: 40px;
     background-color: #f4f4f4;
@@ -43,7 +48,7 @@ h1 {
 }
 .card-subtitle {
     margin-top: 5px;
-    color: #666;
+    color: rgb(27, 5, 126);
     font-weight: lighter;
 }
 
@@ -77,3 +82,13 @@ h1 {
   border: 1px solid #ddd; /* Add a grey border */
   margin-bottom: 12px; /* Add some space below the input */
 }
+
+ button {
+    background-color: #CC0000;
+    color: #B3A125 ;
+    padding: 10px 5px;
+    font: sans-serif;
+    border-color: blue;
+ }
+
+ 
