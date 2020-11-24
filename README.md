@@ -4,15 +4,15 @@
 ![Image of Wireframe](https://i.imgur.com/pnY9PHjh.jpg)
 
 ### Pseudo Code
+Pokedex API is for pokemon fans and casual passerby to see information about different pocket monsters.
 
 The user should be able to:
 Make calls to the pokemon api
 Interact with the pokedex in the browser by-
 1. Hovering over the different mons
-2. Clicking on the different mons-taking you into more information on selected object
-Search for specific pokemon
-Categorize/omit certain pokemon from search 
-Favorite Pokemon
+2. View the information on the different species and their types.
+3. Search for specific pokemon
+4. Sort Pokemon
 
 Constants would be: 
 -number of pokemon
@@ -29,4 +29,17 @@ api should retrieve relevant info on the hovered/clicked Pokemon
 
 add event listeners
 retrieve api and return a response
-render
+render/append
+
+### Technologies Used
+CSS
+HTML
+JAVASCRIPT
+
+### Icebox
+
+add enlarge with click function that provides more info (evolutionary chains, potential abilities, movesets, catch rates)
+hover command that plays the pokemon cry
+More sort/omit features ex: egg groups, type, legendary/non legendary, favorite
+Favorite up to 6 mons
+add general pokemon theme on inital scroll
