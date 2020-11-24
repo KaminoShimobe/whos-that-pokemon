@@ -7,6 +7,7 @@
 
 ![Image of API](https://i.imgur.com/WgZu139.png)
 
+Deploy Pokedex here : childlike-horses.surge.sh
 ### Pseudo Code
 Pokedex API is for pokemon fans and casual passerby to see information about different pocket monsters.
 
