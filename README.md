@@ -37,23 +37,29 @@ retrieve api and return a response
 render/append
 
 ### Technologies Used
-CSS
-HTML
-JAVASCRIPT
+
+<ol>
+<li>CSS</li>
+<li>HTML</li>
+<li>JAVASCRIPT</li>
+</ol>
 
 ### Icebox
 
-add enlarge with click function that provides more info (evolutionary chains potential abilities, movesets, catch rates)
+<ol>
+<li>add enlarge with click function that provides more info (evolutionary chains potential abilities, movesets, catch rates)</li>
 
-hover command that plays the pokemon cry
+<li>hover command that plays the pokemon cry</li>
 
-More sort/omit features ex: egg groups, type, legendary/non legendary, favorite
+<li>More sort/omit features ex: egg groups, type, legendary/non legendary, favorite</li>
 
-Favorite up to 6 mons
+<li>Favorite up to 6 mons</li>
 
-add general pokemon theme on inital scroll
+<li>add general pokemon theme on inital scroll</li>
 
-add color coated boxes around the corresponding types
+<li>add color coated boxes around the corresponding types</li>
+
+</ol>
 
 ### Sources
 Pokemon API
