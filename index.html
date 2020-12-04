@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Unit 1</title>
-        <link rel="stylesheet" href="style.css" />
-        
-    </head>
-    <body><h1>Pokedex</h1>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>Unit 1</title>
+      <link rel="stylesheet" href="style.css" />
+      <script defer src="app.js"></script>
+   </head>
+   <body>
+      <h1>Pokedex</h1>
       <div class="topnav">
-        <button onclick="sortList()">Sort Alphabetically</button>
-  <input type="text" id="myInput" onkeyup="searchy()" placeholder="Search for names..">
-</div> 
-        <div class="container">
-            
-            <ul id="pokedex"></ul>
-        </div>
-        <script src="app.js"></script>
-    </body>
+         <button onclick="sortList()">Sort Alphabetically</button>
+         <button onclick="sortList2()">Sort Numerically</button>
+         <input type="text" id="myInput" onkeyup="searchy()" placeholder="Search for names..">
+      </div>
+      <div class="container">
+         <ul id="pokedex"></ul>
+      </div>
+   </body>
 </html>
+

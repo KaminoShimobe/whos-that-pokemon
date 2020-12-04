@@ -1,94 +1,99 @@
+
+
 body {
-    background-color:#3b4cca;
-    color: gold;
-    margin: 0;
-    font-family: rubik;
+	background-color: #3b4cca;
+	color: gold;
+	margin: 0;
+	font-family: rubik;
 }
 
 .container {
-    padding: 30px 10;
-    margin: 0 auto;
-
-
+	padding: 30px 10;
+	margin: 0 auto;
 }
 
 h1 {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 55px;
-    text-shadow: -5px 0 blue, 0 2px blue, 3px 2px blue, 4px 3px red;
-
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 55px;
+	text-shadow: -5px 0 blue, 0 2px blue, 3px 2px blue, 4px 3px red;
 }
 
 #pokedex {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 20px;
-    padding-inline-start: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 20px;
+	padding-inline-start: 0;
 }
 
 .card {
-    
-    list-style: none;
-    padding: 40px;
-    background-color: #f4f4f4;
-    color: #222;
-  text-align: center;
+	list-style: none;
+	padding: 40px;
+	background-color: #f4f4f4;
+	color: #222;
+	text-align: center;
 }
 
 .card:hover {
-    animation: bounce 0.5s linear;
+	animation: bounce 0.5s linear;
 }
 
 .card-title {
-    text-transform: capitalize;
-    margin-bottom: 0px;
-    font-size: 32px;
-    font-weight: normal;
+	text-transform: capitalize;
+	margin-bottom: 0px;
+	font-size: 32px;
+	font-weight: normal;
 }
+
 .card-subtitle {
-    margin-top: 5px;
-    color: rgb(27, 5, 126);
-    font-weight: lighter;
+	margin-top: 5px;
+	color: rgb(27, 5, 126);
+	font-weight: lighter;
 }
 
 .card-image {
-    height: 180px;
+	height: 180px;
 }
 
 @keyframes bounce {
-    20% {
-        transform: translateY(-6px);
-    }
-    40% {
-        transform: translateY(0px);
-    }
-
-    80% {
-        transform: translateY(-2px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+	20% {
+		transform: translateY(-6px);
+	}
+	40% {
+		transform: translateY(0px);
+	}
+	80% {
+		transform: translateY(-2px);
+	}
+	100% {
+		transform: translateY(0);
+	}
 }
 
 #myInput {
-  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-  background-position: 10px 12px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 100%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
-  margin-bottom: 12px; /* Add some space below the input */
+	background-image: url('/css/searchicon.png');
+	/* Add a search icon to input */
+	background-position: 10px 12px;
+	/* Position the search icon */
+	background-repeat: no-repeat;
+	/* Do not repeat the icon image */
+	width: 100%;
+	/* Full-width */
+	font-size: 16px;
+	/* Increase font-size */
+	padding: 12px 20px 12px 40px;
+	/* Add some padding */
+	border: 1px solid #ddd;
+	/* Add a grey border */
+	margin-bottom: 12px;
+	/* Add some space below the input */
 }
 
- button {
-    background-color: #CC0000;
-    color: #B3A125 ;
-    padding: 10px 5px;
-    font: sans-serif;
-    border-color: blue;
- }
+button {
+	background-color: #CC0000;
+	color: #B3A125;
+	padding: 10px 5px;
+	font: sans-serif;
+	border-color: blue;
+}
 
- 
